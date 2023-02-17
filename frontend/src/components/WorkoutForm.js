@@ -2,7 +2,7 @@ import { useState, useContext } from 'react';
 import { AppContext } from '../App';
 
 function WorkoutForm() {
-  const { workouts, workoutDispatch } = useContext(AppContext);
+  const { workoutDispatch } = useContext(AppContext);
 
   const [title, setTitle] = useState('');
   const [load, setLoad] = useState('');

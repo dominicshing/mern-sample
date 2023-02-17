@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { useState, createContext, useReducer } from 'react';
+import { createContext, useReducer } from 'react';
 
 // pages & components
 import Home from './pages/Home';
